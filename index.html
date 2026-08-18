@@ -1,24 +1,125 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Upgrade to Pro</h1>
-        
-        <div class="pricing">
-            <h2>For individuals</h2>
-            <ul>
-                <li>1 gb</li>
-                <li>No support</li>
-            </ul>
-            <button>Buy now</button> 
-            <h2>For enterprise</h2>
-                <ul>
-                    <li>10 gb</li>
-                <li>Priority support</li>
-                </ul>
-            <button>Contact us</button>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <nav>
+      <h2>Alex</h2>
+
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+      <div class="children">
+        <p class="blue-text">Hello, I'm</p>
+
+        <h1>Alex Johnson</h1>
+
+        <h2>Frontend Developer</h2>
+
+        <p>I create simple and beautiful websites using HTML and CSS.</p>
+
+        <a class="button1" href="#projects"> View My Work </a>
+      </div>
+
+      <img
+        class="profile-image children"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKpFN55GTWyPWgtuOErNk4-hM2ppzgxmKuel4oIpAG996bXCNUBJoKQo&s=10"
+        alt="Alex Johnson"
+      />
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+
+      <p>
+        I'm a beginner web developer who enjoys creating websites and learning
+        new technologies.
+      </p>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="section projects-box">
+
+
+      <h2>My Projects</h2>
+
+      <div class="projects">
+        <div class="card">
+          <img
+            src="https://t3.ftcdn.net/jpg/01/28/52/18/360_F_128521888_fmzQgeBbrnCpAS7A4wKPKbu0VDikCeBh.jpg"
+            alt="Restaurant Website"
+          />
+
+          <h3>Restaurant Website</h3>
+
+          <p>
+            A simple website for a local restaurant built using HTML and CSS.
+          </p>
+
+          <a href="#">View Project →</a>
         </div>
-        
-    </body>
+
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwso18QPHoy3KTtn6uZCmhyeOQ1ChElQcseu8IL33u9Q6GQzC-h67CrBRl&s=10"
+            alt="Travel Website"
+          />
+
+          <h3>Travel Website</h3>
+
+          <p>A simple travel website showing popular destinations.</p>
+
+          <a href="#">View Project →</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdnB4vgAlR_WKAdnl-SIFA6OzlbBmgpfCQLCWwAuCzIp5BmB2HcfTmqdC&s=10"
+            alt="Landing Page"
+          />
+
+          <h3>Landing Page</h3>
+
+          <p>A simple landing page created using HTML and CSS.</p>
+
+          <a href="#">View Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact">
+      <h2>Let's Work Together</h2>
+
+      <p>Have a project in mind? Feel free to contact me.</p>
+
+      <a class="button2" href="mailto:alex@example.com"> Contact Me </a>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>© 2026 Alex Johnson</p>
+    </footer>
+  </body>
 </html>
